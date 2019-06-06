@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.pb.customviews.customseekbar.ArcSeekBar
+        android:id="@+id/seekArc"
+
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rainbow_oval_view"
+        app:progress="20"
+        app:progressBackgroundColor="@android:color/transparent"
+        app:progressBackgroundWidth="20dp"
+        app:progressColor="@android:color/transparent"
+        app:progressWidth="29dp"
+        android:splitTrack="false"
+        app:thumb="@drawable/thumb_seek" />
+
+</LinearLayout>
